@@ -1,0 +1,15 @@
+node_modules/
+dist/
+out/
+release/
+*.log
+.DS_Store
+# Secrets: never commit (see CLAUDE.md, PLAN 7.6)
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+.vite/
+coverage/
